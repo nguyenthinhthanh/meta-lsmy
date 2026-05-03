@@ -8,6 +8,9 @@ inherit packagegroup
 # - Numerical computation
 # - OpenCV Python bindings
 RDEPENDS:${PN} = "\
+    unzip \
+    opencv \
+    python3-opencv \
     nnstreamer-blaze \
     nnstreamer-face-mesh \
     nnstreamer-crop \
