@@ -42,19 +42,19 @@ do_lsmy_security() {
     sh ${IMAGE_ROOTFS}${bindir}/gen_gold_backup.sh || bbfatal "Backup generation failed"
 }
 
-ROOTFS_POSTPROCESS_COMMAND += "do_lsmy_security; "
+# ROOTFS_POSTPROCESS_COMMAND += "do_lsmy_security; "
 
 # ====== SYSTEM FEATURE STACK ======
-IMAGE_INSTALL += "\
-    packagegroup-lsmy-base \
-    packagegroup-lsmy-network \
-    packagegroup-lsmy-python-core \
-    packagegroup-lsmy-embedded \
-    packagegroup-lsmy-iot \
-    packagegroup-lsmy-computer-vision \
-    packagegroup-lsmy-ai \
-    packagegroup-lsmy-apps \
-"
+#IMAGE_INSTALL += "\
+#    packagegroup-lsmy-base \
+#    packagegroup-lsmy-network \
+#    packagegroup-lsmy-python-core \
+#    packagegroup-lsmy-embedded \
+#    packagegroup-lsmy-iot \
+#    packagegroup-lsmy-computer-vision \
+#    packagegroup-lsmy-ai \
+#    packagegroup-lsmy-apps \
+#"
 
 # ====== SYSTEM UTILITIES ======
 # - Basic system tools and libraries
