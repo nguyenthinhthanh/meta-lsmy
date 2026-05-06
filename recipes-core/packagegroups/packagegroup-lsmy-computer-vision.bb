@@ -24,5 +24,4 @@ RDEPENDS:${PN} = "\
     tensorflow-lite \
     weston \
     weston-init \
-    weston-examples \
 "

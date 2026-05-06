@@ -9,11 +9,8 @@ inherit packagegroup
 # - Useful for debugging and system inspection
 RDEPENDS:${PN} = "\
     kernel-modules \
-    nano \
     curl \
     coreutils \
     pkgconfig \
-    htop \
-    userland \
     dialog \
 "

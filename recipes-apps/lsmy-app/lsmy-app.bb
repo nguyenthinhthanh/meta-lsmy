@@ -13,7 +13,6 @@ inherit python3-dir
 RDEPENDS:${PN} += " \
     python3-core \
     python3-ctypes \
-    lsmy-hello \
     lsmy-python-lib \
     lsmy-webserver \
     lsmy-camera-watchdog \
