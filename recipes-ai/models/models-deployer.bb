@@ -11,7 +11,6 @@ S = "${WORKDIR}/git/ai/models/deploys"
 do_install() {
     install -d ${D}/usr/share/models
     install -m 0644 ${S}/*.tflite ${D}/usr/share/models/
-    install -m 0644 ${S}/*.task ${D}/usr/share/models/
 }
 
 FILES:${PN} += "/usr/share/models"
