@@ -13,4 +13,5 @@ RDEPENDS:${PN} = "\
     nnstreamer-crop \
     nnstreamer-crop-view \
     nnstreamer-fatigue-eval \
+    nnstreamer-people-count \
 "
